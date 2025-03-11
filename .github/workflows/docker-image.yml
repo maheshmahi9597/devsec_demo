@@ -1,3 +1,24 @@
+Skip to content
+Navigation Menu
+maheshmahi9597
+devsec_demo
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Docker Image CI
+Update docker-image.yml #3
+Jobs
+Run details
+Workflow file for this run
+.github/workflows/docker-image.yml at 5f0bf08
 name: Docker Image CI
 
 on:
@@ -35,3 +56,4 @@ jobs:
           push: true
           tags: docker.io/mahimani/my-image-name:${{ steps.timestamp.outputs.TIMESTAMP }}
           #replace mahimani with your dockerhub username.
+Update docker-image.yml · maheshmahi9597/devsec_demo@5f0bf08
