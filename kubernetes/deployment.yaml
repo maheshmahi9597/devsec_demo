@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tic-tac-toe
-        image: https://hub.docker.com/repository/docker/mahimani/tic-tac/
+        image: mahimani/tic-tac:v1
         # Image will be automatically updated by CI/CD pipeline
         imagePullPolicy: Always
         ports:
